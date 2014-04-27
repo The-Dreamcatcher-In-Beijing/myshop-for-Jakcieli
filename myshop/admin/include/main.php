@@ -1,0 +1,1 @@
+<html>	<head>		<title>网站后台管理</title>		<style>			.body{background:url('./images/anjing.jpg');}								</style>		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>	</head>	<body bgcolor=''>		<h2>欢迎光临！</h2>	</body></html>

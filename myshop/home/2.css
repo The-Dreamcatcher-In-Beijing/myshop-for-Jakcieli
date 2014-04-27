@@ -1,0 +1,32 @@
+		body{z-index:2;}
+			
+		a{text-decoration:none;}
+		
+		.theme{width:80%;height:80px;border:1px solid black;margin-left:10%;z-index:1;}
+		
+		.tubiao{ width:150px;height:50px;border:1px solid red;border-radius:12px 12px 12px 12px;font-family:Edwardian Script ITC;
+			font-size:300%;font-style:italic;color:purple;padding:10px;z-index:1;}
+	
+		.theme-a{width:150px;height:70px;border:1px solid red;margin-bottom:5px;}
+			
+				.tubiao,.theme-a{float:left;margin:2px;z-index:1;}
+				
+		.theme-1{width:150px;height:25px;border:1px solid teal;color:green;font-size:150%;
+			font-family:¡• È£ªtext-align:center;overflow:hidden;z-index:1;}
+	
+		.theme-2{width:150px;height:25px;border:1px solid teal;font-size:10px;color:blue;
+			font-size:100%;text-align:center;margin-top:10px;z-index:1;}
+
+		.theme-3{width:150px;height:25px;border:1px solid teal;color:green;font-size:150%;
+			font-family:¡• È£ªtext-align:center;overflow:hidden;z-index:1;}
+		
+		.theme-b{width:350px;height:40px;border:1px solid red;margin-bottom:5px;float:right;font-size:80%;padding:20px;text-indent:2em;overflow:hidden;color:purple;background:url(./image/lohas4.jpg) no-repeat;underline:none;z-index:1;}
+			
+		.theme-c{width:345px;height:80px;border:1px solid green;margin-left:330px;background:url(./image/lohas1.jpg) no-repeat;z-index:1;}
+	
+		.one{width:80%;height:100px;border:1px solid red;margin-left:10%;background:brown;border-radius:12px 12px 12px 12px;z-index:1;}
+	
+		
+		
+		
+	

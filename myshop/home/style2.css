@@ -1,0 +1,517 @@
+body{z-index:0;background-color:gray;}
+
+	a:hover{position:relative;top:2px;left:2px;}
+	
+	.title{width:60%;height:60px;margin-left:20%;
+		z-index:4;background-color:white;border-radius:12px 12px 12px 12px;}
+	.title a {line-height:60px;color:black;}
+	
+	.login{width:100px height:200px;float:right;z-index:4;}
+	
+			.eight{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+				.eight-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+					.eight-a a{
+								border: 1px solid #D3D3D3;
+								border-radius: 12px 12px 12px 12px;
+								display: inline-block;
+								height: 22px;
+								line-height: 22px;
+								margin: 5px 5px 5px 2px;
+								padding: 0 10px;
+							}
+							.eight-a a:hover{
+								background-color: #F08200;
+								border-color: #E17A00;
+								color: #FFFFFF;
+							}
+							.eight-a a:active{
+								border-color: #C56B00;
+								color: #FFFFFF;
+							}
+							.eight-a .special{
+								color: #F08200;
+							}
+							eight-a .ico-triangle{
+								border-color: transparent transparent transparent #333333;
+								border-style: dashed dashed dashed solid;
+								border-width: 4px 0 4px 4px;
+								cursor: pointer;
+								display: inline-block;
+								height: 0;
+								line-height: 0;
+								margin-left: 3px;
+								overflow: hidden;
+								vertical-align: middle;
+							}
+							.eight-a a:hover .ico-triangle, eight-a a:active .ico-triangle{
+								border-color: transparent transparent transparent #FFFFFF;
+							}
+							.category-tag-txt{
+								display: inline-block;
+								vertical-align: middle;
+							}
+
+
+
+			.eight-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/bao3.jpg') no-repeat;z-index:0;background-color:white;} 
+				.eight-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+				.eight-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+				.eight-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+				
+			.eight-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/jingzi.jpg') no-repeat;} 
+				.eight-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+				.eight-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+				.eight-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+			.eight-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/zhangpeng.jpg') no-repeat;} 
+				.eight-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+				.eight-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+				.eight-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+			.nine-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image/zixing.jpg') no-repeat;z-index:0;} 
+				.nine-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+				.nine-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+				.nine-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+				
+
+
+
+			.nine-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/shuidai.jpg') no-repeat;z-index:0;} 
+				.nine-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+				.nine-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+				.nine-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+				
+			.nine-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/mojing.jpg') no-repeat;} 
+				.nine-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+				.nine-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+				.nine-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+			.nine-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/diaoyi.jpg') no-repeat;} 
+				.nine-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+				.nine-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+				.nine-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+			
+			
+	
+	
+	
+	
+	
+		.ten{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+		.ten-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+			.ten-a a{
+						border: 1px solid #D3D3D3;
+						border-radius: 12px 12px 12px 12px;
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+						margin: 5px 5px 5px 2px;
+						padding: 0 10px;
+					}
+					.ten-a a:hover{
+						background-color: #F08200;
+						border-color: #E17A00;
+						color: #FFFFFF;
+					}
+					.ten-a a:active{
+						border-color: #C56B00;
+						color: #FFFFFF;
+					}
+					.ten-a .special{
+						color: #F08200;
+					}
+					ten-a .ico-triangle{
+						border-color: transparent transparent transparent #333333;
+						border-style: dashed dashed dashed solid;
+						border-width: 4px 0 4px 4px;
+						cursor: pointer;
+						display: inline-block;
+						height: 0;
+						line-height: 0;
+						margin-left: 3px;
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.ten-a a:hover .ico-triangle, ten-a a:active .ico-triangle{
+						border-color: transparent transparent transparent #FFFFFF;
+					}
+					.category-tag-txt{
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+
+
+	.ten-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/shuma1.jpg') no-repeat;z-index:0;} 
+		.ten-b-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.ten-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.ten-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.ten-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shuma2.jpg') no-repeat;} 
+		.ten-c-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.ten-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.ten-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.ten-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shuma3.jpg') no-repeat;} 
+		.ten-d-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.ten-d-a-a{width:50px;height:40px;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.ten-d-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.eleven-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image/shuma4.jpg') no-repeat;z-index:0;} 
+		.eleven-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.eleven-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.eleven-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+
+
+
+	.eleven-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/shuma5.jpg') no-repeat;z-index:0;} 
+		.eleven-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.eleven-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.eleven-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.eleven-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shuma6.jpg') no-repeat;} 
+		.eleven-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.eleven-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.eleven-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.eleven-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shuma7d.jpg') no-repeat;} 
+	.eleven-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shuma7.jpg') no-repeat;} 
+		.eleven-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.eleven-d-a-a{width:50px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.eleven-d-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+	
+	
+		
+		
+		.twelve{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+		.twelve-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+			.twelve-a a{
+						border: 1px solid #D3D3D3;
+						border-radius: 12px 12px 12px 12px;
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+						margin: 5px 5px 5px 2px;
+						padding: 0 10px;
+					}
+					.twelve-a a:hover{
+						background-color: #F08200;
+						border-color: #E17A00;
+						color: #FFFFFF;
+					}
+					.twelve-a a:active{
+						border-color: #C56B00;
+						color: #FFFFFF;
+					}
+					.twelve-a .special{
+						color: #F08200;
+					}
+					twelve-a .ico-triangle{
+						border-color: transparent transparent transparent #333333;
+						border-style: dashed dashed dashed solid;
+						border-width: 4px 0 4px 4px;
+						cursor: pointer;
+						display: inline-block;
+						height: 0;
+						line-height: 0;
+						margin-left: 3px;
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.twelve-a a:hover .ico-triangle, twelve-a a:active .ico-triangle{
+						border-color: transparent transparent transparent #FFFFFF;
+					}
+					.category-tag-txt{
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+
+
+	.twelve-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/liuxing.jpg') no-repeat;z-index:0;} 
+		.twelve-b-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.twelve-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.twelve-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.twelve-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/gudian.jpg') no-repeat;} 
+		.twelve-c-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.twelve-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.twelve-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.twelve-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/langman.jpg') no-repeat;} 
+		.twelve-d-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.twelve-d-a-a{width:50px;height:40px;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.twelve-d-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.thirteen-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image/balei.jpg') no-repeat;z-index:0;} 
+		.thirteen-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.thirteen-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.thirteen-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+
+
+
+	.thirteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image/jindai.jpg') no-repeat;z-index:0;} 
+		.thirteen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.thirteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.thirteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.thirteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/shinei.jpg') no-repeat;} 
+		.thirteen-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.thirteen-c-a-a{width:120px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.thirteen-c-a-b{width:100px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.thirteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/xiandai.jpg') no-repeat;} 
+		.thirteen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.thirteen-d-a-a{width:100px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.thirteen-d-a-b{width:100px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+	
+	
+	.fourteen{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+		.fourteen-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+			.fourteen-a a{
+						border: 1px solid #D3D3D3;
+						border-radius: 12px 12px 12px 12px;
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+						margin: 5px 5px 5px 2px;
+						padding: 0 10px;
+					}
+					.fourteen-a a:hover{
+						background-color: #F08200;
+						border-color: #E17A00;
+						color: #FFFFFF;
+					}
+					.fourteen-a a:active{
+						border-color: #C56B00;
+						color: #FFFFFF;
+					}
+					.fourteen-a .special{
+						color: #F08200;
+					}
+					fourteen-a .ico-triangle{
+						border-color: transparent transparent transparent #333333;
+						border-style: dashed dashed dashed solid;
+						border-width: 4px 0 4px 4px;
+						cursor: pointer;
+						display: inline-block;
+						height: 0;
+						line-height: 0;
+						margin-left: 3px;
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.fourteen-a a:hover .ico-triangle, fourteen-a a:active .ico-triangle{
+						border-color: transparent transparent transparent #FFFFFF;
+					}
+					.category-tag-txt{
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+
+
+	.fourteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/huayuan.jpg') no-repeat;z-index:0	;background-color:white;} 
+		.fourteen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.fourteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.fourteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.fourteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/zahuo.jpg');} 
+		.fourteen-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.fourteen-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.fourteen-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.fourteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/chuangyi.jpg');} 
+		.fourteen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.fourteen-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.fourteen-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.fifteen-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image1/shouna.jpg') no-repeat;z-index:0;} 
+		.fifteen-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.fifteen-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.fifteen-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+
+
+
+	.fifteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/chufang.jpg') no-repeat;z-index:0;} 
+		.fifteen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.fifteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.fifteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.fifteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/dengju.jpg');} 
+		.fifteen-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.fifteen-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.fifteen-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.fifteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/jiashi.jpg');} 
+		.fifteen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.fifteen-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.fifteen-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.sixteen{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+			.sixteen-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+			.sixteen-a a{
+						border: 1px solid #D3D3D3;
+						border-radius: 12px 12px 12px 12px;
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+						margin: 5px 5px 5px 2px;
+						padding: 0 10px;
+					}
+					.sixteen-a a:hover{
+						background-color: #F08200;
+						border-color: #E17A00;
+						color: #FFFFFF;
+					}
+					.sixteen-a a:active{
+						border-color: #C56B00;
+						color: #FFFFFF;
+					}
+					.sixteen-a .special{
+						color: #F08200;
+					}
+					sixteen-a .ico-triangle{
+						border-color: transparent transparent transparent #333333;
+						border-style: dashed dashed dashed solid;
+						border-width: 4px 0 4px 4px;
+						cursor: pointer;
+						display: inline-block;
+						height: 0;
+						line-height: 0;
+						margin-left: 3px;
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.sixteen-a a:hover .ico-triangle, sixteen-a a:active .ico-triangle{
+						border-color: transparent transparent transparent #FFFFFF;
+					}
+					.category-tag-txt{
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+
+
+	.sixteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/shangzhuang.jpg') no-repeat;z-index:0	;background-color:white;} 
+		.sixteen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.sixteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.sixteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.sixteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/shoubiao.jpg');} 
+		.sixteen-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.sixteen-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.sixteen-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.sixteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/waitao.jpg');} 
+		.sixteen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.sixteen-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.sixteen-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.seventeen-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image1/tiaowen.jpg') no-repeat;z-index:0;} 
+		.seventeen-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.seventeen-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.seventeen-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+
+
+
+	.seventeen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/qunzi.jpg') no-repeat;z-index:0;} 
+		.seventeen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.seventeen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.seventeen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.seventeen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/xiazhuang.jpg') no-repeat;} 
+		.seventeen-c-a{width:220px;height:60px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.seventeen-c-a-a{width:80px;height:50;float:left;position:relative;top:25px;left:15px;font-weight:bord;z-index:2;}
+		.seventeen-c-a-b{width:150px;height:20px;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:0px;font-size:13px;z-index;2;padding:5px;}
+	.seventeen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/shoushi.jpg');} 
+		.seventeen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.seventeen-d-a-a{width:80px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.seventeen-d-a-b{width:120px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+	.eighteen{width:80%;height:480px;border:10px solid white;margin-left:10%;margin-top:20px;z-index:1;background:white;}
+		.eighteen-a{ width:230px;height:220px;border:10px solid white;margin-right:12px;float:left;} 
+			.eighteen-a a{
+						border: 1px solid #D3D3D3;
+						border-radius: 12px 12px 12px 12px;
+						display: inline-block;
+						height: 22px;
+						line-height: 22px;
+						margin: 5px 5px 5px 2px;
+						padding: 0 10px;
+					}
+					.eighteen-a a:hover{
+						background-color: #F08200;
+						border-color: #E17A00;
+						color: #FFFFFF;
+					}
+					.eighteen-a a:active{
+						border-color: #C56B00;
+						color: #FFFFFF;
+					}
+					.eighteen-a .special{
+						color: #F08200;
+					}
+					eighteen-a .ico-triangle{
+						border-color: transparent transparent transparent #333333;
+						border-style: dashed dashed dashed solid;
+						border-width: 4px 0 4px 4px;
+						cursor: pointer;
+						display: inline-block;
+						height: 0;
+						line-height: 0;
+						margin-left: 3px;
+						overflow: hidden;
+						vertical-align: middle;
+					}
+					.eighteen-a a:hover .ico-triangle, eighteen-a a:active .ico-triangle{
+						border-color: transparent transparent transparent #FFFFFF;
+					}
+					.category-tag-txt{
+						display: inline-block;
+						vertical-align: middle;
+					}
+
+
+
+	.eighteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/guofen.jpg') no-repeat;z-index:0;} 
+		.eighteen-b-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.eighteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.eighteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.eighteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/dianying.jpg');} 
+		.eighteen-c-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.eighteen-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.eighteen-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.eighteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/huaijiu.jpg');} 
+		.eighteen-d-a{width:228px;height:60px;valign:bottom;border:1px solid white;position:relative;top:160px;background-color:white;z-index:2;opacity:0.5;}
+		.eighteen-d-a-a{width:50px;height:40px;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.eighteen-d-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+
+
+	.nineteen-a{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:12px;float:left;background:url('./image/shu.jpg') no-repeat;z-index:0;} 
+		.nineteen-a-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.nineteen-a-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.nineteen-a-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+
+
+
+	.nineteen-b{ width:230px;height:220px;border:10px solid white;opacity:;margin-right:18px;float:left;background:url('./image1/wano.jpg') no-repeat;z-index:0;} 
+		.nineteen-b-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.nineteen-b-a-a{width:50px;height:40;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.nineteen-b-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.nineteen-c{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image/wenju.jpg') no-repeat;} 
+		.nineteen-c-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.nineteen-c-a-a{width:80px;height:40;float:left;position:relative;top:30px;left:15px;font-weight:bord;z-index:2;}
+		.nineteen-c-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;font-size:13px;z-index;2;padding:5px;}
+	.nineteen-d{ width:230px;height:220px;border:10px solid white;margin-right:18px;float:left;background:url('./image1/tece.jpg') no-repeat;} 
+		.nineteen-d-a{width:220px;height:50px;valign:bottom;border:1px solid white;position:relative;top:170px;background-color:white;z-index:2;opacity:0.5;}
+		.nineteen-d-a-a{width:50px;height:50;float:left;position:relative;top:20px;left:15px;font-weight:bord;z-index:2;}
+		.nineteen-d-a-b{width:150px;height:50;border-left:1px solid gray;float:right;opacity:0.8;position:relative;top:10px;font-size:13px;z-index;2;padding:5px;}
+		
+	.twenty{width:85%;height:100px;margin-left:10%;margin-top:20px;z-index:1;}			
+		
